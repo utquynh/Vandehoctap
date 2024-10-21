@@ -1,0 +1,37 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #d9534f; /* Màu đỏ cho tiêu đề */
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.content {
+    max-width: 800px; /* Giới hạn chiều rộng của nội dung */
+    margin: 20px auto; /* Canh giữa nội dung */
+    padding: 20px;
+    background-color: #ffffff; /* Màu nền trắng cho nội dung */
+    border-radius: 8px; /* Bo tròn góc */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng */
+}
+
+ul {
+    list-style-type: disc; /* Kiểu danh sách có dấu chấm */
+    margin-left: 20px; /* Lề bên trái cho danh sách */
+}
+
+hr {
+    border: 1px solid #d9534f; /* Đường kẻ phân cách màu đỏ */
+    margin: 20px 0; /* Khoảng cách trên và dưới đường kẻ */
+}
